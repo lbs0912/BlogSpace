@@ -476,7 +476,7 @@ font:
 
 # Math Equations Render Support
 math:
-  enable: false
+  enable: true
 
   # Default (true) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in Front Matter.
@@ -558,12 +558,14 @@ baidu_analytics: 17082ee15df20dad9762c5512f336eb2
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
 #growingio_analytics: #your projectId
 
+
+
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: liubaoshuaiBlog
   count: true
-  lazyload: false
+  lazyload: true
 
 # Changyan
 changyan:
@@ -627,7 +629,8 @@ gitalk:
 # Available values: button | slide
 # Warning: Baidu Share does not support https.
 #baidushare:
-##  type: button
+  ##type: slide
+
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
@@ -638,18 +641,18 @@ gitalk:
 # Likely supports four looks, nine social networks, any button text
 # You are free to modify the text value and order of any network
 likely:
-  enable: false
-  look: normal # available values: normal, light, small, big
+  enable: true
+  look: small # available values: normal, light, small, big
   networks:
     twitter: Tweet
     facebook: Share
     linkedin: Link
-    gplus: Plus
-    vkontakte: Share
-    odnoklassniki: Class
-    telegram: Send
+    #gplus: Plus
+    #vkontakte: Share
+    #odnoklassniki: Class
+    #telegram: Send
     whatsapp: Send
-    pinterest: Pin
+    #pinterest: Pin
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
@@ -744,8 +747,8 @@ rating:
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: 6lBru0pkvKr9Npb8rpIn6pUJ-gzGzoHsz
-  app_key: otaFvkPTuHNcrJjPhW8kdezR
+  app_id: gksxcfwJlMV3zkhz1pQc7pl2-gzGzoHsz
+  app_key: kjOanp812G7TIGMSQpPCVIhj
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
@@ -780,7 +783,7 @@ busuanzi_count:
 #tencent_mta:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page.
