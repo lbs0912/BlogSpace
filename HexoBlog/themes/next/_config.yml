@@ -46,10 +46,10 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine them on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/blog-logo-1.jpg
+  medium: /images/blog-logo-1.jpg
+  apple_touch_icon: /images/blog-logo-1.jpg
+  safari_pinned_tab: /images/blog-logo-1.jpg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -61,7 +61,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2015
 
   # Icon between year and copyright info.
   icon:
@@ -69,7 +69,7 @@ footer:
     # `heart` is recommended with animation in red (#ff0000).
     name: user
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
     color: "#808080"
 
@@ -112,8 +112,8 @@ creative_commons:
 
 # Follow me on GitHub banner in right-top corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/lbs0912
   title: Follow me on GitHub
 
 
@@ -160,7 +160,7 @@ menu:
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: true
+  badges: false
 
 
 # ---------------------------------------------------------------
@@ -190,8 +190,8 @@ site_state: true
 social:
   GitHub: https://github.com/lbs0912
   E-Mail: mailto:lbs1203940926@163.com
-  SF: https://segmentfault.com/u/lbs0912
-  #Weibo: https://weibo.com/yourname || weibo
+  SF Blog: https://segmentfault.com/u/lbs0912
+  Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -204,11 +204,8 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
-   # Icon Mappings
-  GitHub: github
-  E-Mail: twitter
-  SF: weibo
+  transition: true
+ 
 
 # Blog rolls
 links_icon: link
@@ -273,7 +270,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
@@ -757,7 +754,7 @@ leancloud_visitors:
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
-  security: true
+  security: false
   betterPerformance: false
 
 # Another tool to show number of visitors to each article.
