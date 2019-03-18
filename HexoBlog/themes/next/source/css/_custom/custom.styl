@@ -2,10 +2,12 @@
 
 //修改文章内链接文本样式
 .post-body p a {
-	color: #0593d3;
+	//color: #0593d3;
+	color: #009a61;
 	border-bottom: none;
 	&:hover {
-		color: #0477ab;
+		//color: #0477ab;
+		color: #03754b;
 		text-decoration: underline;
 	}
 }
@@ -18,10 +20,28 @@
 	}
 }
 
+
+//修改文章内链接文本样式（被markdown 列表语法修饰的链接）
+.post-body li a {
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+    background-color: transparent;
+    color: #009a61;
+    text-decoration: none;
+    outline: none;
+	border-bottom: 0px solid rgba(0,154,97,0.25);
+    cursor: pointer;
+	&:hover {
+		color: #03754b;
+		text-decoration: underline;
+		
+	}
+}
+
 //修改文章内code样式
 code {
-	color:#fff;
-	background:#333;
+	color:#c7254e;
+	background:#f9f2f4;
 }
 
 //修改文章中图片样式，改为居中

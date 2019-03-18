@@ -10,17 +10,16 @@ comments: true
 top:
 ---
 
-
-# Blog 搭建和配置
-
-[TOC]
-
+* 记录 `Hexo Blog` 的搭建与配置
+* 对 `Next` 主题进行定制，添加搜索，统计，置顶，加密阅读，自定义CSS等
+  
 <!--more-->
 
 ## Changelog
 * 2018/08/23，撰写
 * 2018/09/04，整理
 * 2018/09/25，添加 `Font Awesome`使用
+* 2019/03/18，添加文章加密阅读
 * 本博客全部配置信息可在 [HexoBlog | lbs0912-github](https://github.com/lbs0912/HexoBlog) 查看
 
 ## Ref
@@ -50,7 +49,7 @@ top:
 
 > Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.   --- [Hexo](https://hexo.io/docs/)
 
- 
+
 参考 [Hexo官网](https://hexo.io/)了解Hexo更多信息。
 
 
@@ -364,12 +363,13 @@ logo: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20
 
 
 #### 博文分享功能
-* [hexo next主题为博客添加分享功能](https://blog.csdn.net/lanuage/article/details/78991798)
 
+* [hexo next主题为博客添加分享功能](https://blog.csdn.net/lanuage/article/details/78991798)
 * 百度分享
+
 ```
 baidushare:
-  type: button  # 需要设置 type: button 
+  type: button  # 需要设置 type: button
   baidushare: true
 ```
 
@@ -393,9 +393,9 @@ likely:
 
 
 #### Disqus 评论
+
 * 使用谷歌账户登录Disqus
 * shortName：liubaoshuaiBlog
-
 * 之后，在撰写文章时，顶部信息添加 `comments` 字段可控制是否展示评论
 
 ```
@@ -462,7 +462,7 @@ skip_render: README.md
 ```
 
 #### 方式2
-正确的解决方法如下。
+
 * 把 `README.md` 文件的后缀名改成 `.MDOWN`
 * 仍将该文件置于 `blog/source` 文件夹
 * 这样可以保证 `hexo` 不会解析该文件，同时 `Github` 也会将其作为`.MD` 文件解析
@@ -534,8 +534,8 @@ top: 5
 
 
 ### 文章加密阅读
-* Ref - [next主题 - 文章加密阅读](https://segmentfault.com/a/1190000009544924#articleHeader23)
 
+* Ref - [next主题 - 文章加密阅读](https://segmentfault.com/a/1190000009544924#articleHeader23)
 * 打开 `themes->next->layout->_partials->head.swig` 文件，添加如下代码
 
 ```
@@ -573,6 +573,7 @@ comments: true
 
 
 ### 定制CSS
+
 * 在 `.\themes\next\source\css\_custom\custom.styl` 文件中，添加自定义CSS样式。
 
 定制CSS样式后，可以使用如下效果。
@@ -608,28 +609,11 @@ comments: true
 
 <blockquote class="blockquote-center">引用居中效果</blockquote>
 ```
-<span id="inline-blue">Demo</span>， 
-<span id="inline-purple">Demo</span>
-<span id="inline-green">Demo</span>
-<span id="inline-yellow">Demo</span>
+<span id="inline-blue">Demo</span><span id="inline-purple">Demo</span><span id="inline-green">Demo</span><span id="inline-yellow">Demo</span>
 
-<p id="div-border-left-red">Demo</p>
-<p id="div-border-left-yellow">Demo</p>
-<p id="div-border-left-green">Demo</p>
-<p id="div-border-left-blue">Demo</p>
-<p id="div-border-left-purple">Demo</p>
-
-<p id="div-border-right-red">Demo</p>
-<p id="div-border-right-yellow">Demo</p>
-<p id="div-border-right-green">Demo</p>
-<p id="div-border-right-blue">Demo</p>
-<p id="div-border-right-purple">Demo</p>
-
-<p id="div-border-top-red">Demo</p>
-<p id="div-border-top-yellow">Demo</p>
-<p id="div-border-top-green">Demo</p>
-<p id="div-border-top-blue">Demo</p>
-<p id="div-border-top-purple">Demo</p>
+<p id="div-border-left-red">red | yellow | green | blue | purple</p>
+<p id="div-border-right-yellow">red | yellow | green | blue | purple</p>
+<p id="div-border-top-green">red | yellow | green | blue | purple</p>
 
 <span id="yu-1">动画</span>
 
@@ -657,7 +641,6 @@ comments: true
 #### 文字增加背景色块
 
 * 参考 [Hexo博客设置进阶](http://blog.junyu.pro/posts/0010-hexo-learn-from-Never-yu.html#background) 完成该部分的设置。
-
 *  使用 `inline-blue`, `inline-purple`, `inline-yellow`,`inline-green` 可以对文字背景色块进行修改。
 
 ```
@@ -666,9 +649,11 @@ comments: true
 ```
 
 #### 图形边框效果
+
 参考 [Hexo博客设置进阶](http://blog.junyu.pro/posts/0010-hexo-learn-from-Never-yu.html#background) 完成该部分的设置。
 
 #### 引用边框变色
+
 参考[Hexo博客设置进阶](http://blog.junyu.pro/posts/0010-hexo-learn-from-Never-yu.html#background)
 
 #### 引用居中效果
@@ -679,6 +664,7 @@ comments: true
 
 
 #### Font Awesome 使用
+
 * [Font Awesome](http://fontawesome.dashgame.com/)
 
 使用 `Font Awesome` 图标时，只需要使用 CSS 前缀 `fa`，再加上图标名称即可。
