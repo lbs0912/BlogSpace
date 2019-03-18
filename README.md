@@ -1,7 +1,11 @@
 
 # Blog 搭建和配置
 
-[TOC]
+* [Changelog](##changelog)
+* [Ref](##Ref)
+  * [Hexo 基础使用](###Hexo基础使用)
+  * [Blog 进阶管理](###Blog进阶管理)
+  * [优质博客参考](###优质博客参考)
 
 ## Changelog
 * 2018/08/23，撰写
