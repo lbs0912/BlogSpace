@@ -5,9 +5,9 @@ categories: Front-End Develop
 tags: [Front-End Developer,Hexo,Next,Blog]
 keywords: Hexo,Next,Blog
 toc: true
-password: 123
+password: 
 comments: true
-top: -1
+top:
 ---
 
 
@@ -608,7 +608,35 @@ comments: true
 
 <blockquote class="blockquote-center">引用居中效果</blockquote>
 ```
+<span id="inline-blue">Demo</span>， 
+<span id="inline-purple">Demo</span>
+<span id="inline-green">Demo</span>
+<span id="inline-yellow">Demo</span>
 
+<p id="div-border-left-red">Demo</p>
+<p id="div-border-left-yellow">Demo</p>
+<p id="div-border-left-green">Demo</p>
+<p id="div-border-left-blue">Demo</p>
+<p id="div-border-left-purple">Demo</p>
+
+<p id="div-border-right-red">Demo</p>
+<p id="div-border-right-yellow">Demo</p>
+<p id="div-border-right-green">Demo</p>
+<p id="div-border-right-blue">Demo</p>
+<p id="div-border-right-purple">Demo</p>
+
+<p id="div-border-top-red">Demo</p>
+<p id="div-border-top-yellow">Demo</p>
+<p id="div-border-top-green">Demo</p>
+<p id="div-border-top-blue">Demo</p>
+<p id="div-border-top-purple">Demo</p>
+
+<span id="yu-1">动画</span>
+
+<a id="download" href="https://git-scm.com/download/win"><i class="fa fa-download"></i><span> Download Now</span>
+</a>
+
+<blockquote class="blockquote-center">引用居中效果</blockquote>
 
 #### 链接文本样式修改
 
