@@ -56,7 +56,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -188,10 +188,11 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/lbs0912
-  E-Mail: mailto:lbs1203940926@163.com
-  SF Blog: https://segmentfault.com/u/lbs0912
-  Weibo: https://weibo.com/yourname || weibo
+  GitHub: https://github.com/lbs0912 || github
+  E-Mail: mailto:lbs1203940926@163.com || envelope
+  SF Blog: https://segmentfault.com/u/lbs0912 || facebook
+  Weibo: https://weibo.com/2329754491 || weibo
+
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -955,7 +956,7 @@ pace: false
 # pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom
 # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
 # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-barber-shop
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
