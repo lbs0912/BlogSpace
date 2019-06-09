@@ -801,4 +801,4 @@ var src = 'https://raw.githubusercontent.com/lbs0912/HexoBlog/master/source/albu
 
 ## 最后
 * 记录，成为更好的自己。
-* 本博客全部配置信息可在 [HexoBlog | lbs0912-github](https://github.com/lbs0912/HexoBlog) 查看。
+* 本博客全部配置信息可在 [BlogSpace | lbs0912-github](https://github.com/lbs0912/BlogSpace) 查看。
