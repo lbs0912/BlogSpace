@@ -1,5 +1,5 @@
 ---
-title: JS模块化——CommonJS,AMD,CMD,ES6 Module
+title: JS模块化——CommonJS AMD CMD ES6 Module
 date: 2019-03-28 10:35:26
 categories: Front-End Develop
 tags: [Front-End Developer,JS]
@@ -11,7 +11,7 @@ top:
 ---
 
 
-* 对 JS 常见的模块化方案进行介绍和比较——`CommonJS`,`AMD`,`CMD`,`ES6 Module`
+* 对 JS 常见的模块化方案进行介绍和比较——`CommonJS` `AMD` `CMD` `ES6 Module`
 * 对 `ES6 Module` 和 `CommonJS` 的差异进行对比，介绍循环依赖和动态 `import()`
 
 <!--more-->
