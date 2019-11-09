@@ -37,12 +37,13 @@
 * [最后](#最后)
 
 
+
 ## Changelog
 * 2018/08/23，撰写
 * 2018/09/04，整理
 * 2018/09/25，添加 `Font Awesome`使用
 * 2019/03/18，添加文章加密阅读
-* 本博客全部配置信息可在 [HexoBlog | lbs0912-github](https://github.com/lbs0912/HexoBlog) 查看
+* 本博客全部配置信息可在 [BlogSpace | lbs0912-github](https://github.com/lbs0912/BlogSpace) 查看
 
 ## Ref
 
@@ -210,6 +211,8 @@ hexo deploy      # or hexo d
 | A     |  @  |  192.30.252.154   |
 | A     | @   | 192.30.252.153    |
 
+> [DNS Update | github](https://help.github.com/en/articles/troubleshooting-custom-domains#dns-configuration-errors)
+
 其中A记录为GitHub Page提供的IP地址，可以访问 [GitHub Page](https://help.github.com/articles/github-s-ip-addresses/) 查询最新 `IP` 地址。
 
 最后，执行如下命令，并访问 `liubaoshuai.com` 查看修改效果。
@@ -366,6 +369,7 @@ logo: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20
 * 用户名：15821929853
 * 密码：Ab758123aB
 * 百度统计-脚本 ID：17082ee15df20dad9762c5512f336eb2
+* 登陆 [百度统计](https://tongji.baidu.com/web/homepage/index?castk=df83afg752126b970d267) 网站，可以查阅网站访问量
 
 #### 阅读次数统计 LeanCloud
 * [leancloud](https://leancloud.cn/)
