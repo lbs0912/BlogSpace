@@ -135,7 +135,7 @@ menu:
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: true
+  badges: false
 
 
 # ---------------------------------------------------------------
@@ -186,10 +186,10 @@ site_state: true
 social:
   GitHub: https://github.com/lbs0912 || github
   E-Mail: mailto:lbs1203940926@163.com || envelope
-  Juejin Blog: https://juejin.im/user/59af7aa96fb9a0248f4aaeab || free-code-camp
+  掘金博客 : https://juejin.im/user/59af7aa96fb9a0248f4aaeab || free-code-camp
   # SF Blog: https://segmentfault.com/u/lbs0912 || facebook
   # StackOverflow: https://stackoverflow.com/users/6527507/lbs0912 || stack-overflow
-  Weibo: https://weibo.com/2329754491 || weibo
+  微博: https://weibo.com/2329754491 || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -731,7 +731,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
