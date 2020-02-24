@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20190315/blog-logo-1.jpg
+  medium: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20190315/blog-logo-1.jpg
+  apple_touch_icon: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20190315/blog-logo-1.jpg
+  safari_pinned_tab: https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/Blog-20190315/blog-logo-1.jpg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -381,9 +381,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
