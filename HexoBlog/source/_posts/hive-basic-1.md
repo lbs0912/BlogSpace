@@ -11,7 +11,7 @@ comments: true
 top:
 ---
 
-本文为Hive入门篇，主要记录Hive安装配置，数据存储和表操作。
+* 本文为Hive入门篇，主要记录Hive安装配置，数据存储和表操作。
 
 <!--more-->
 
