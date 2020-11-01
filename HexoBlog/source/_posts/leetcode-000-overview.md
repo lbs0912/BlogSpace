@@ -20,14 +20,18 @@ top:
 
 ## Changelog
 * 2019/02/13，撰写
-* 2019/06/16，添加 LeetCode Notes-1
-* 2020/01/05，添加 LeetCode Notes-2
-* 2020/02/22，添加 LeetCode Notes-3
-* 2020/02/23，添加 LeetCode Notes-4
-* 2020/02/28，添加 LeetCode Notes-5
-* 2020/05/14，添加 LeetCode Notes-6
-
-
+* 2019/06/16，添加 *LeetCode Notes-1*
+* 2020/01/05，添加 *LeetCode Notes-2*
+* 2020/02/22，添加 *LeetCode Notes-3*
+* 2020/02/23，添加 *LeetCode Notes-4*
+* 2020/02/28，添加 *LeetCode Notes-5*
+* 2020/05/14，添加 *LeetCode Notes-6*
+* 2020/05/19，添加 *LeetCode Notes-7*
+* 2020/05/19，添加 *动态规划-思维脑图*
+* 2020/06/13，添加 *LeetCode Notes-8*
+* 2020/06/21，添加 *LeetCode Notes-9*
+* 2020/06/27，添加 *LeetCode Notes-10*
+* 2020/11/01，添加 *LeetCode Notes-11*
 
 ## 学习资料汇总
 * [leetcode](https://leetcode.com/)
@@ -91,9 +95,21 @@ top:
 * [LeetCode-409. Longest Palindrome （最长回文串）](https://leetcode.com/problems/longest-palindrome/)
 
 ### 动态规划
-* [LeetCode-338. Counting Bits（比特位计数）](https://leetcode.com/problems/counting-bits/)
 
-## 文档目录
+
+
+
+![](https://image-bed-20181207-1257458714.cos.ap-shanghai.myqcloud.com/leetcode/dp-overview-leetcode.png)
+
+* [LeetCode-338. Counting Bits（比特位计数）](https://leetcode.com/problems/counting-bits/)
+* [LeetCode-53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/submissions/) - DP+滚动数组
+* [LeetCode-152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)- DP+滚动数组
+
+
+
+
+
+## 笔记目录
 
 ### Notes-1
 
@@ -149,3 +165,60 @@ top:
 * [LeetCode-506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/)
 * [LeetCode-61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 * [LeetCode-1389. 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/)
+
+
+
+### Notes-7
+
+* [LeetCode-560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+* [LeetCode-25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+* [LeetCode-53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/submissions/) - DP+滚动数组
+* [LeetCode-152. 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)- DP+滚动数组
+* [LeetCode-680. 验证回文字符串 II](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+ 
+
+
+
+
+
+
+### Notes-8
+
+* [LeetCode-1371. 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
+* [LeetCode-5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+* [LeetCode-207. 课程表](https://leetcode-cn.com/problems/course-schedule/)
+* [LeetCode-70. 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)-动态规划
+* [LeetCode-739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+
+
+
+
+### Notes-9
+* [LeetCode-1480. 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+* [LeetCode-54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+* [LeetCode-59. 螺旋矩阵 II](https://leetcode-cn.com/problems/longest-common-prefix/)
+* [LeetCode-14. 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+* [LeetCode-1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target/)
+
+
+
+### Notes-10
+
+* [LeetCode-771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+* [LeetCode-1486. 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
+* [LeetCode-16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/)
+* [LeetCode-15. 三数之和](https://leetcode-cn.com/problems/3sum/)
+* [LeetCode-1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+
+> 第16，15，1题为同一类型题目。
+
+
+
+### Notes-11
+
+* [LeetCode-209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+* [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+* [LeetCode-88. 合并两个有序数组组](https://leetcode-cn.com/problems/merge-sorted-array/)
+* [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+* [LeetCode-187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+
