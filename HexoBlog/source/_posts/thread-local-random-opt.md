@@ -18,16 +18,6 @@ top:
 <!--more-->
 
 
-# Java Notes-20-ThreadLocalRandom
-
-[TOC]
-
-
-## 更新日志
-* 2020/08/29，撰写
-
-
-
 ## Ref
 * [多线程下的ThreadLocalRandom用法 | 掘金](https://juejin.im/post/6863713733252743182)
 * [Random和ThreadLocalRandom区别 | 掘金](https://juejin.im/post/6844904096785235982)

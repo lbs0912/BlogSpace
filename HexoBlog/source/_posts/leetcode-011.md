@@ -17,6 +17,7 @@ top:
 <!--more-->
 
 
+
 ## Changelog
 * 2020/06/29，撰写
 * 2020/11/01，完成
@@ -24,13 +25,66 @@ top:
 
 
 ## Overview
-
-* [LeetCode-209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
-* [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+* [LeetCode-942. 增减字符串匹配](https://leetcode-cn.com/problems/di-string-match/)
 * [LeetCode-88. 合并两个有序数组组](https://leetcode-cn.com/problems/merge-sorted-array/)
+* [LeetCode-209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 * [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
 * [LeetCode-187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
 
+
+
+
+
+## 942. 增减字符串匹配
+
+### Description
+
+* [LeetCode-942. 增减字符串匹配](https://leetcode-cn.com/problems/di-string-match/)
+
+
+
+### Approach 1-分治
+
+#### Description
+
+参考 `leetcode-cn` 官方题解。
+
+
+首先考虑字符串中的第一个字母。如果 `S[0] == 'I'`，那么只要令 `A[0] = 0`，就一定能满足 `A[0] < A[1]`。如果 `S[0] == 'D'`，同样我们只要令 `A[0] = N`，就一定能满足 `A[0] > A[1]`。
+
+接下来，当我们考虑 `S` 中剩下的 `N - 1` 个字母时，还剩下 `N` 个数可以使用，这 `N` 个数为 `[0 .. N - 1]` 或 `[1 .. N]`。可以发现，由于 `S[0]` 的值已经确定，那么剩下 `S` 中的 `N - 1` 个字母和 `N` 个可用的数变成了一个和原问题相同，但规模为 `N - 1` 的问题。即如果 `S[1] == 'I'`，我们就令 `A[1]` 为剩下数中最小的那个数；如果 `S[1] == 'D'`，我们就令 `A[1]` 为剩下数中最大的那个数。
+
+我们每次会把可以使用的数的集合中的最小值或最大值取出，并放到当前的位置，因此可以使用的数的集合总是连续的，就可以非常方便的进行维护。
+
+
+
+
+复杂度分析
+* 时间复杂度：`O(N)`
+* 空间复杂度：`O(N)`
+
+
+#### Solution
+```java
+class Solution {
+    public int[] diStringMatch(String S) {
+       
+        int N = S.length();
+        int[] ans = new int[N + 1];
+        int low = 0;
+        int high = N;
+        for(int i=0;i< N;i++){
+            if(S.charAt(i) == 'I'){
+                ans[i] = low++;
+            } else{
+                ans[i] = high--;
+            }
+        }
+        ans[N] = low;
+        return ans;
+    }
+}
+```
 
 
 

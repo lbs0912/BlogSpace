@@ -216,9 +216,11 @@ top:
 
 ### Notes-11
 
+* [LeetCode-942. 增减字符串匹配](https://leetcode-cn.com/problems/di-string-match/)
+* [LeetCode-88. 合并两个有序数组组](https://leetcode-cn.com/problems/merge-sorted-array/)
 * [LeetCode-209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
 * [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
-* [LeetCode-88. 合并两个有序数组组](https://leetcode-cn.com/problems/merge-sorted-array/)
-* [LeetCode-201. 数字范围按位与](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
 * [LeetCode-187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+
+
 
